@@ -1,0 +1,21 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-link {
+    display: inline-block;
+    color: #ffffff;
+    padding: 23px 14px;
+    transition: 0.5s;
+}
+
+.header__nav-link:hover {
+    background: #ffffff;
+    color: #D47300;
+}
